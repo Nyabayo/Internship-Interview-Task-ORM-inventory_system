@@ -1,4 +1,5 @@
 Inventory Management System
+
 This project provides a backend API for managing products in an inventory. It allows users to list, add, update, and delete products using a RESTful API.
 
 Project Setup Instructions
