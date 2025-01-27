@@ -11,7 +11,7 @@ import json
 @require_http_methods(["GET"])
 def list_products(request):
     """
-    List all products.
+    Listing all the products present in my database.
     """
     try:
         products = Product.objects.all().values()
@@ -24,7 +24,7 @@ def list_products(request):
 @require_http_methods(["POST"])
 def add_product(request):
     """
-    Add a new product to the database.
+    Adding any new product to my database.
     """
     try:
         data = json.loads(request.body)
@@ -53,7 +53,7 @@ def add_product(request):
 @require_http_methods(["PUT"])
 def update_product(request, product_id):
     """
-    Update the details of an existing product.
+    Updating the details of an existing product in my database.
     """
     try:
         data = json.loads(request.body)
@@ -79,7 +79,7 @@ def update_product(request, product_id):
 @require_http_methods(["DELETE"])
 def delete_product(request, product_id):
     """
-    Delete a product by its ID.
+    Deleting any product by its ID.
     """
     try:
         product = Product.objects.get(id=product_id)
