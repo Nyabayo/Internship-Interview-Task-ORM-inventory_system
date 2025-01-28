@@ -107,7 +107,7 @@ python3 manage.py runserver
        }
    ]
    ```
-- **Postman Screenshot**: http://127.0.0.1:8000/api/products/
+- **Postman Screenshot**: 
   ![List Products](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/GET1.png?raw=true)
 
 ---
@@ -132,7 +132,7 @@ python3 manage.py runserver
        "product_id": 1
    }
    ```
-- **Postman Screenshot**:  http://127.0.0.1:8000/api/products/add/
+- **Postman Screenshot**:  
   ![Add Product](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/add_POST.png?raw=true)
 
 ---
@@ -155,7 +155,7 @@ python3 manage.py runserver
        "message": "Product updated successfully!"
    }
    ```
-- **Postman Screenshot**:  http://127.0.0.1:8000/api/products/1/update/
+- **Postman Screenshot**:  
   ![Update Product](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/update_PUT.png?raw=true)
 
 ---
@@ -171,7 +171,7 @@ python3 manage.py runserver
        "message": "Product deleted successfully!"
    }
    ```
-- **Postman Screenshot**:  http://127.0.0.1:8000/api/products/1/delete/
+- **Postman Screenshot**:  
   ![Delete Product](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/DELETE1.png?raw=true)
 
 ---
