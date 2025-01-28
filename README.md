@@ -87,6 +87,7 @@ python3 manage.py runserver
 ### **1. List All Products**
 - **Method**: `GET`
 - **Endpoint**: `/api/products/`
+- http://127.0.0.1:8000/api/products/
 - **Response**:
    ```json
    [
@@ -106,14 +107,15 @@ python3 manage.py runserver
        }
    ]
    ```
-- **Postman Screenshot**:  
+- **Postman Screenshot**: http://127.0.0.1:8000/api/products/
   ![List Products](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/GET1.png?raw=true)
 
 ---
 
 ### **2. Add a New Product**
 - **Method**: `POST`
-- **Endpoint**: `/api/products/add/`
+- **Endpoint**: `/api/products/add/`.
+- http://127.0.0.1:8000/api/products/add/
 - **Request Body**:
    ```json
    {
@@ -130,7 +132,7 @@ python3 manage.py runserver
        "product_id": 1
    }
    ```
-- **Postman Screenshot**:  
+- **Postman Screenshot**:  http://127.0.0.1:8000/api/products/add/
   ![Add Product](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/add_POST.png?raw=true)
 
 ---
@@ -139,6 +141,7 @@ python3 manage.py runserver
 - **Method**: `PUT`
 - **Endpoint**: `/api/products/<id>/update/`  
   *(Replace `<id>` with the product ID, e.g., `/api/products/1/update/`)*
+  http://127.0.0.1:8000/api/products/1/update/
 - **Request Body**:
    ```json
    {
@@ -152,7 +155,7 @@ python3 manage.py runserver
        "message": "Product updated successfully!"
    }
    ```
-- **Postman Screenshot**:  
+- **Postman Screenshot**:  http://127.0.0.1:8000/api/products/1/update/
   ![Update Product](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/update_PUT.png?raw=true)
 
 ---
@@ -161,13 +164,14 @@ python3 manage.py runserver
 - **Method**: `DELETE`
 - **Endpoint**: `/api/products/<id>/delete/`  
   *(Replace `<id>` with the product ID, e.g., `/api/products/1/delete/`)*
+  http://127.0.0.1:8000/api/products/1/delete/
 - **Response**:
    ```json
    {
        "message": "Product deleted successfully!"
    }
    ```
-- **Postman Screenshot**:  
+- **Postman Screenshot**:  http://127.0.0.1:8000/api/products/1/delete/
   ![Delete Product](https://github.com/Nyabayo/Internship-Interview-Task-ORM-inventory_system/blob/main/Screenshots/DELETE1.png?raw=true)
 
 ---
